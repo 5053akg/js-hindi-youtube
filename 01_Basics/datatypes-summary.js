@@ -52,3 +52,28 @@ Return type of variables in JavaScript
 
 
 */
+
+
+//*******************************************************
+
+// Stack (Primitive), Heap (Non-Primitive)
+
+let myYoutubename  = "AnandMyYoutube"
+
+let anothername = myYoutubename
+anothername = "AnandKrUtube"
+
+console.log(myYoutubename);
+console.log(anothername)
+
+
+let userOne = {
+    email : "abc@gmail.com",
+    upi : "abc@ybi",
+}
+
+let userTwo = userOne
+userTwo.email = "xyz@gmail.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
